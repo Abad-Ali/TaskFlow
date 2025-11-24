@@ -66,7 +66,7 @@ const LoginPage = () => {
               {loading ? 'Logging in...' : 'Login'}
             </button>
             <div className="text-sm text-right mt-2">
-              <p className="font-serif inline">Don't have an account?</p>
+              <p className="font-serif inline">{"Don't have an account?"}</p>
               <Link href="/signup" className="ml-1 text-blue-800 font-bold font-serif underline">Signup</Link>
             </div>
           </form>
