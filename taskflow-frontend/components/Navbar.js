@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className='bg-black flex justify-between p-2 items-center gap-3'>
 
         <div className='flex items-center'>
-          <Image className='w-12' src='./favicon.ico' alt='logo'></Image>
+          <Image className='w-12' src='/favicon.ico' alt='logo'></Image>
           <div className='logo font-black font-serif text-xl md:text-3xl text-red-500 '>
             TaskFlow
           </div>
