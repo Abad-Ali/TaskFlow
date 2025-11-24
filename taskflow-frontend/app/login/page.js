@@ -72,7 +72,7 @@ const LoginPage = () => {
           </form>
         </div>
 
-        <div className="flex items-center justify-center p-4">
+        <div className="hidden md:flex items-center justify-center p-4">
           <Image className=" mix-blend-darken rounded-2xl w-full h-auto object-contain" src="/login1.avif" alt="login_img" width={570} height={500} />
         </div>
       </div>
