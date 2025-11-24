@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href='/login'><button className='md:text-xl text-blue-700 font-bold bg-[#121212] px-3 py-1 rounded-xl hover:cursor-pointer hover:bg-[#121212] border   hover:border-gray-300'>Login</button></Link>
           <Link href='/signup'><button className='md:text-xl text-green-500 font-bold bg-[#121212] px-4 py-1 rounded-full hover:cursor-pointer hover:bg-[#121212]   border hover:border-gray-300'>Signup</button></Link>
           <Link href='https://github.com/Abad-Ali' target='_blank'>
-            <button className=''>
+            <button className='hidden md:inline'>
               <Image className='invert w-10 md:p-1  md:ml-0 mr-2 rounded-full hover:cursor-pointer' src='/github.svg' alt='gitHub'></Image>
             </button>
           </Link>
