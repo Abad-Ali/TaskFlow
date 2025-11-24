@@ -14,7 +14,7 @@ const app = express();
 
 // CORS CONFIG
 const corsOptions = {
-  origin: 'http://localhost:3000', // your frontend
+  origin: 'https://taskflow-blush-two.vercel.app', // your frontend
   credentials: true,
 };
 
