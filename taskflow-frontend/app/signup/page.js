@@ -67,7 +67,7 @@ const Signup = () => {
             </div>
           </form>
         </div>
-        <div className="flex items-center justify-center p-4">
+        <div className="hidden md:flex items-center justify-center p-4">
           <Image className="mix-blend-darken rounded-2xl w-full h-auto object-contain" src="/sugnup.avif" alt="signup_img"  width={570} height={500} />
         </div>
       </div>
