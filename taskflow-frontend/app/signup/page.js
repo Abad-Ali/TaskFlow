@@ -40,7 +40,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="bg-black flex flex-col justify-center items-center py-6 px-4">
+    <div className="bg-black min:h-screen flex flex-col justify-center items-center py-6 px-4">
       <div className="bg-slate-200 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 rounded-3xl mt-7 border-2 border-amber-500 overflow-hidden">
         <div className="signup flex flex-col items-center justify-center px-6 py-10 text-black">
           <h2 className="text-4xl font-black font-serif underline mb-6">Signup</h2>
