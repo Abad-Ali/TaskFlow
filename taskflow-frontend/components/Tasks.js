@@ -17,7 +17,7 @@ const Tasks = () => {
 
   const fetchTasks = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/tasks', {
+      const res = await fetch('https://taskflow-sv98.onrender.com/api/tasks', {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -56,8 +56,8 @@ const Tasks = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const url = isEditing
-      ? `http://localhost:5000/api/tasks/${editId}`
-      : 'http://localhost:5000/api/tasks';
+      ? `https://taskflow-sv98.onrender.com/api/tasks/${editId}`
+      : 'https://taskflow-sv98.onrender.com/api/tasks';
     const method = isEditing ? 'PUT' : 'POST';
 
     try {
@@ -83,7 +83,7 @@ const Tasks = () => {
 
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/tasks/${id}`, {
+      const res = await fetch(`https://taskflow-sv98.onrender.com/api/tasks/${id}`, {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${token}`,
