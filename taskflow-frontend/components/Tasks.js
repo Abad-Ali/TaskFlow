@@ -107,7 +107,7 @@ const Tasks = () => {
     setIsEditing(true);
   };
 
-  if (loading) return <p>Loading tasks...</p>;
+  if (loading) return <p className="flex justify-center items-center">Loading tasks...</p>;
   if (error) return <p>Error: {error}</p>;
 
   return (
