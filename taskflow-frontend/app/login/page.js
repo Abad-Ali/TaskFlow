@@ -43,7 +43,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="bg-black min-h-screen flex flex-col justify-center items-center py-6 px-4">
+    <div className="bg-black flex flex-col justify-center items-center py-6 px-4">
       <div className="bg-slate-200 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 rounded-3xl border-2 border-amber-500 overflow-hidden">
        
         <div className="flex flex-col items-center justify-center px-6 py-10 text-black">
