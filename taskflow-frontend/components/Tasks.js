@@ -110,7 +110,7 @@ const Tasks = () => {
   if (loading) {
      return (
       <div className="w-screen h-screen fixed top-0 left-0 bg-black text-white flex justify-center items-center text-xl md:text-2xl z-50">
-        <p className="text-center">Loading...</p>
+        <p className="text-center">Checking Authentication...</p>
       </div>
     );
   }
