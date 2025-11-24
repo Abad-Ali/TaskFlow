@@ -114,7 +114,13 @@ const Tasks = () => {
       </div>
     );
   }
-  if (error) return <p>Error: {error}</p>;
+  if (error) {
+     return (
+      <div className="w-screen h-screen fixed top-0 left-0 bg-black text-white flex justify-center items-center text-xl md:text-2xl z-50">
+        <p className="text-center">Error: {error}</p>
+      </div>
+    );
+  }
 
   return (
     <div className='flex flex-col gap-12'>
