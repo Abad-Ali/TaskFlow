@@ -17,7 +17,7 @@ const LoginPage = () => {
     setError('');
 
     try {
-      const res = await fetch('https://taskflow-sv98.onrender.com/api/auth/login', {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

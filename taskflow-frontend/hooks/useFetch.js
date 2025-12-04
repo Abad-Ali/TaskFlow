@@ -25,7 +25,7 @@ export const useFetch = (url) => {
             throw new Error("No token found. Please login again.");
           }
       
-          const res = await fetch("https://taskflow-sv98.onrender.com/api/tasks", {
+          const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tasks`, {
             method: "GET",
             headers: {
               "Content-Type": "application/json",

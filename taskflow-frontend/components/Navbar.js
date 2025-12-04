@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className='bg-black flex justify-between p-2 items-center gap-3'>
 
         <div className='flex items-center'>
-          <Image className='w-12' src='/favicon.ico' alt='logo'></Image>
+          <Image className='w-12' src='/logo.png' alt='logo' width={100} height={100}></Image>
           <div className='logo font-black font-serif text-xl md:text-3xl text-red-500 '>
             TaskFlow
           </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link href='/signup'><button className='md:text-xl text-green-500 font-bold bg-[#121212] px-4 py-1 rounded-full hover:cursor-pointer hover:bg-[#121212]   border hover:border-gray-300'>Signup</button></Link>
           <Link href='https://github.com/Abad-Ali/TaskFlow' target='_blank'>
             <button className='hidden md:inline'>
-              <Image className='invert w-10 md:p-1  md:ml-0 mr-2 rounded-full hover:cursor-pointer' src='/github.svg' alt='gitHub'></Image>
+              <Image className='invert w-10 md:p-1  md:ml-0 mr-2 rounded-full hover:cursor-pointer' src='/github.svg' alt='gitHub' width={100} height={100}></Image>
             </button>
           </Link>
         </div>
